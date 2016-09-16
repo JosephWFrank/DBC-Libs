@@ -1,0 +1,291 @@
+body {
+ /* background: #D56062!important;*/
+ /*colo*/
+  /*color: #FDF0D5!important;*/
+}
+
+.form-control {
+  width: 25%!important;
+}
+
+
+.insert-word {
+  color: black;
+  font-size: 1.3em;
+  font-family: courier;
+}
+
+.insert-word-2 {
+  color: black;
+  font-size: 1.3em;
+  font-family: fantasy;
+}
+
+#story-two{
+  font-family: courier;
+}
+.speaker {
+  text-decoration: underline;
+}
+#title {
+  text-decoration: underline;
+}
+a {
+  /*color: #FDF0D5!important;*/
+  color: black;
+  /*font-family: helvetica!important;*/
+}
+
+li {
+  padding: .5%;
+}
+
+.story-1-container {
+  text-align: center;
+  /*background-color: blue;*/
+  font-family: fantasy!important;
+  font-size: 1.4em;
+  color: black!important;
+
+
+
+background: url("http://img.wallpaperfolder.com/f/552B065961B0/an-old-and-worn-out.jpg") no-repeat center center fixed;
+ /*-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;*/
+/*margin-bottom: 100px;*/
+
+
+}
+
+
+
+.second-story {
+  text-align: center;
+  font-family: courier;
+}
+
+/*Grey strip at top of home screen*/
+/*.jumbotron {
+  width: 100%!important;
+  margin: auto!important;
+  background: #D56062!important;
+}*/
+
+#new-dbc-jumbo {
+  background: #337ab7!important;
+  border-bottom: solid black;
+}
+
+#homepage-jumbo {
+  background: #D56062!important;
+  border-bottom: solid black;
+}
+
+#jules-jumbo {
+  background: #06b300!important;
+  border-bottom: solid black;
+}
+
+/*stuff in homepage*/
+.col-sm-4 {
+  margin-left: 200px!important;
+  text-align: center!important;
+  padding-bottom: 100px!important;
+}
+
+#dbc-details {
+    padding: 50px;
+    display: none;
+}
+
+#each-story {
+  font-family: courier!important;
+  font-size: 2em!important;
+}
+
+#dbc-font{
+  font-family: fantasy!important;
+  font-size: 2em!important;
+}
+
+#dbc-font-two{
+  font-family: fantasy!important;
+  font-size: 1.35em!important;
+}
+
+
+#dbc-details a:hover{
+     font-weight: bold!important;
+  color: limegreen!important;
+}
+
+#jules-details {
+    padding: 50px;
+    display: none;
+}
+
+
+
+#jules-details a:hover {
+  font-weight: bold!important;
+  color: limegreen!important;
+}
+
+#second-title {
+  font-family: courier;
+}
+
+#jules-pic {
+  position: absolute;
+  margin-left: 500px;
+  top: 55px;
+  opacity: .7;
+  height: 450px;
+  display: none;
+  border: 3px solid black;
+}
+
+#story-two {
+  position: absolute;
+  margin-top: 10px;
+  left: 50px;
+  padding: 15px;
+}
+
+.libs-title {
+  font-family: "Comic Sans MS", "Comic Sans", cursive!important;
+}
+
+nav {
+  width: 100%!important;
+  margin: auto;
+  background-color: black!important;
+  margin-bottom: 0px!important;
+  padding: 20px!important;
+}
+
+
+nav a{
+  font-size: 1.2em;
+  font-family: "Comic Sans MS", "Comic Sans", cursive!important;
+  color: white!important;
+  padding: 10px!important;
+  text-decoration: none!important;
+}
+
+#home:hover {
+  font-weight: bold!important;
+  color: limegreen!important;
+}
+
+#draft {
+  position: absolute;
+  left: 55px;
+  top: 70px;
+ /* margin: auto;*/
+/*  float: left;*/
+ /* margin-bottom: 100px;*/
+  opacity: .3;
+  height: 500px;
+  width: 500px;
+}
+
+#profile:hover {
+  font-weight: bold!important;
+  color: red!important;
+}
+
+#logout:hover {
+  font-weight: bold!important;
+  color: blue!important;
+}
+
+
+#delete-jules {
+  position: absolute;
+  right: 50px;
+  top: 80px;
+}
+
+#star-mark {
+  position: absolute;
+  width: 350px;
+  height: 300px;
+  right:300px;
+}
+
+#mark-face {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  right:395px;
+  top: 75px;
+}
+
+#star-kevin {
+  position: absolute;
+  top:300px;
+  right:100px;
+  width: 350px;
+  height: 300px;
+}
+
+#kevin-face {
+  position: absolute;
+  top:390px;
+  right:195px;
+  width: 150px;
+  height: 120px;
+}
+
+.users-submitted {
+  text-decoration: underline;
+}
+
+#choose-story {
+  text-align: center!important;
+  font-size: 2.5em;
+}
+
+#D {
+  color: #06b300;
+}
+
+#B {
+  color: blue;
+}
+
+#C {
+  color: yellow;
+}
+
+#title-libs {
+  color: white;
+}
+
+#D1 {
+  color: #06b300;
+}
+
+#B1 {
+  color: #D56062;
+}
+
+#C1 {
+  color: yellow;
+}
+
+#D2 {
+  color: blue;
+}
+
+#B2 {
+  color: #D56062;
+}
+
+#C2 {
+  color: yellow;
+}
+

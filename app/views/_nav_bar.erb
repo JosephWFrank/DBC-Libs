@@ -1,0 +1,11 @@
+<nav>
+  <% if session[:id] %>
+    <a id='home' href="/">Home</a>
+    <a id='profile' href="/users/profile">Profile</a>
+    <a id='logout' href="/users/logout">Logout</a>
+  <% else %>
+    <a id='home' href="/">Home</a>
+    <a id='profile' href="/users/login">Login</a>
+    <a id='logout' href="/users/new">New User</a>
+  <% end %>
+</nav>

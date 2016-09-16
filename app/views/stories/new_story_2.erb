@@ -1,0 +1,77 @@
+<div class="jumbotron" id="jules-jumbo">
+  <div class="container text-center">
+<h1 class='libs-title'><span id='D2'>D</span><span id='B2'>B</span><span id='C2'>C</span> <span id='title-libs'>Mad Libs</h1>
+  </div>
+</div>
+
+<div id='story-two'>
+  <h1>Create a New Script!</h1>
+
+  <% if @errors %>
+    <% @errors.each do |error| %>
+      <p><%= error %></p>
+    <% end %>
+  <% end %>
+
+  <form id='story-two' action='/stories' method='POST'>
+
+    <label for='title'>Title:</label>
+    <input id='surprise' type="text" placeholder='Title' name="story[title]">
+    <br>
+
+    <label for='word_1'>Student Name:</label>
+    <input type="text" placeholder='Student Name' name="story[word_1]">
+    <br>
+
+    <label for='word_2'>Verb (past tense):</label>
+    <input type="text" placeholder='Verb (past tense)' name="story[word_2]">
+    <br>
+
+    <label for='word_3'>Verb (ends in -ing):</label>
+    <input type="text" placeholder='Verb (ends in -ing)' name="story[word_3]">
+    <br>
+
+    <label for='word_4'>Teacher #1:</label>
+    <input type="text" placeholder='Teacher #1' name="story[word_4]">
+    <br>
+
+    <label for='word_5'>Teacher #2 (full name):</label>
+    <input type="text" placeholder='Teacher #2 (full)' name="story[word_5]">
+    <br>
+
+    <label for='word_6'>Noun:</label>
+    <input type="text" placeholder='Noun' name="story[word_6]">
+    <br>
+
+    <label for='word_7'>Language:</label>
+    <input type="text" placeholder='Language' name="story[word_7]">
+    <br>
+
+    <label for='word_8'>Verb:</label>
+    <input type="text" placeholder='Verb' name="story[word_8]">
+    <br>
+
+
+    <label for='word_9'>Adjective:</label>
+    <input type="text" placeholder='Adjective' name="story[word_9]">
+    <br>
+
+
+    <label for='word_10'>Adjective</label>
+    <input type="text" placeholder='Adjective' name="story[word_10]">
+    <br>
+
+    <label for='word_11'>Noun:</label>
+    <input type="text" placeholder='Noun' name="story[word_11]">
+    <br>
+
+    <input type="hidden" name="story[user_id]" value=<%=session[:id]%>>
+    <input type="hidden" name="story[story_id]" value=2>
+    <br>
+    <input type="submit" name="submit" value='Create!'>
+
+  </form>
+
+  <img id='jules-pic' src="http://i.huffpost.com/gen/2164964/thumbs/o-SAMUEL-570.jpg">
+</div>
+

@@ -1,0 +1,45 @@
+<div class="story-1-container">
+<br>
+      <br>
+       <br>
+        <br>
+  <h1><%=@story.title%></h1>
+  <p><h4>Written by <b class="insert-word-2"> <%=@story.user.username%></b></h4></p>
+<br>
+<br>
+<% if session[:id] == @story.user_id %>
+  <form id='delete-jules' method='POST' action='/stories/<%=@story.id%>'>
+    <input type="hidden" name="_method" value='delete'>
+    <input type="submit" name="delete" value='Delete Story'>
+  </form>
+<% end %>
+
+
+  <p>Kevin, sipping his venti iced <b class="insert-word-2"><%=@story.word_1%></b> from Starbucks, hits the <b class="insert-word-2"><%=@story.word_2%></b>. </p>
+  <br>
+  <p>Students, upon hearing the <b class="insert-word-2">"<%=@story.word_3%>"</b> from the <b class="insert-word-2"><%=@story.word_2%></b>, take their seats on the two comfy <b class="insert-word-2"><%=@story.word_4%></b>.</p>
+   <br>
+  <p> Mark, in his usual <b class="insert-word-2"><%=@story.word_5%></b>-colored shirt, tells the students that they will be learning about <b class="insert-word-2"><%=@story.word_6%></b> today.</p>
+   <br>
+  <p> This announcement is met with different reactions:</p>
+   <br>
+  <p> <b class="insert-word-2"><%=@story.word_7%></b> contemplates their life choices, while <b class="insert-word-2"><%=@story.word_8%></b> spits out their coffee, and Ezra barks in approval.</p>
+   <br>
+  <p>“Why are we learning about <b class="insert-word-2"><%=@story.word_6 %></b>, we were supposed to learn about <b class="insert-word-2"><%=@story.word_9%></b> this week!” exclaims <b class="insert-word-2"><%=@story.word_10%></b>.</p>
+   <br>
+  <p> “Well”, Kevin begins to explain while refilling Ezra’s water dish, “<b class="insert-word-2"><%=@story.word_6%></b> will be the most widely-adopted coding language in the world in <b class="insert-word-2"><%=@story.word_11%></b> years, and it’s about time you learn!”.</p>
+  <br>
+   <br>
+    <br>
+     <br>
+      <br>
+       <br>
+        <br>
+        <br>
+       <br>
+       <br>
+       <br>
+       <br>
+        <br>
+
+</div>
