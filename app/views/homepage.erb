@@ -1,0 +1,53 @@
+
+
+<div class="jumbotron" id="homepage-jumbo">
+  <div class="container text-center">
+    <h1 class='libs-title'><span id='D'>D</span><span id='B'>B</span><span id='C'>C</span> <span id='title-libs'>Mad Libs</h1></span>
+    <br>
+  </div>
+</div>
+
+
+    <h3  id="choose-story" class='libs-title'>Choose a Story:</h3>
+    <br>
+    <br>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-4"> <h1 id='dbc-font'>A Morning at...</h1><br>  <a  id='dbc' href=""><img height="500" width="500" src="http://photos4.meetupstatic.com/photos/event/8/5/5/0/highres_447934128.jpeg"></a>
+
+<div id='dbc-details'>
+<% if session[:id] %>
+<p><a id='dbc-font' href="/stories/new/1" class="button-green btn btn-primary">Tell a Story!</a></p>
+<br>
+<p><h3 id='dbc-font' class='users-submitted'>User-Submitted Stories:</h3></p>
+<% end %>
+  <% @first_story.each do |story|%>
+    <p>
+      <a id='dbc-font' href="/stories/<%=story.id%>"><%=story.title%></a>
+    </p>
+  <% end %>
+
+</div>
+</div>
+
+<div class="col-sm-4" > <h1 id='second-title'><strike>Pulp</strike> DBC Fiction</h1><br> <a id='jules' href=""><img height="500" width="605" src="http://3.bp.blogspot.com/_4pBmaoufKvc/TU3rQzGlpxI/AAAAAAAAAPI/P-aQ9CnvziA/s1600/howl00001.png"></a>
+<div id='jules-details'>
+<% if session[:id] %>
+<p><a id='each-story' href="/stories/new/2" class="button-red btn btn-danger">Write a Script!</a></p>
+<br>
+<p><h3 id='each-story' class='users-submitted'>User-Submitted Scripts:</h3></p>
+<% end %>
+
+  <% @second_story.each do |story|%>
+    <p>
+      <a id='each-story' href="/stories/<%=story.id%>"><%=story.title%></a>
+    </p>
+  <% end %>
+
+</div>
+</div>
+</div>
+</div>
+
+
+

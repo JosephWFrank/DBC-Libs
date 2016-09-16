@@ -1,0 +1,150 @@
+<div class='second-story'>
+<br>
+<br>
+<br>
+<h1 id='title'><strike>Pulp</strike> DBC Fiction</h1>
+
+<p>Written and Directed by <b class='insert-word'><%=@story.user.username%></b></p>
+<br>
+<% if session[:id] == @story.user_id %>
+  <form id='delete-jules' method='POST' action='/stories/<%=@story.id%>'>
+    <input type="hidden" name="_method" value='delete'>
+    <input type="submit" name="delete" value='Delete Script'>
+  </form>
+<% end %>
+
+    <p> --+-- INT. CLASSROOM (Floor 8) - MORNING --+-- <br>
+<img id='draft' src="http://thevioletfemmes.files.wordpress.com/2013/06/stamp.png">
+  --+-- <b class='insert-word speaker'><%=@story.word_4%></b> walks into the classroom. <b class='insert-word'><%=@story.word_1%></b> has just <b class='insert-word'><%=@story.word_2%></b> his pants.
+  <br>
+   He's not crying or whimpering, but he's so full of fear, it's as if his body is <b class='insert-word'><%=@story.word_3%></b>.
+   <br>
+        <b class='insert-word'><%=@story.word_1%></b> can't say a word. --+--</p>
+
+<br>
+<p>                            <b class='insert-word speaker'><%=@story.word_4%></b>
+<br>
+                       Whatsamatter?  Oh, you were through
+                       anyway.  Well, let me retort.
+                       Would you describe for me what
+                       <b class='insert-word'><%=@story.word_5%></b> looks like?
+</p>
+<br>
+<br>
+ <p>       --+-- <b class='insert-word'><%=@story.word_1%></b> still can't speak. --+--
+ <br>
+        --+-- <b class='insert-word'><%=@story.word_4%></b> SNAPS, SAVAGELY TIPPING the table over, removing
+        the only barrier between himself and <b class='insert-word'><%=@story.word_1%></b>. --+--</p>
+<br>
+<br>
+         <p>                    <b class='speaker insert-word'><%=@story.word_4%></b>
+<br>
+                       What country you from!
+                       </p>
+<br>
+<br>
+                              <p>    <b class='speaker insert-word'><%=@story.word_1%></b>
+<br>
+                            --+-- (petrified) --+--
+<br>
+                       <b class='insert-word'><%=@story.word_6.capitalize%></b>? </p>
+<br>
+<br>
+               <p>                 <b class='speaker insert-word'><%=@story.word_4%></b>
+<br>
+                       <b class='insert-word'>"<%=@story.word_6.capitalize%>"</b> ain't no country I know!
+                       Do they speak <b class='insert-word'><%=@story.word_7%></b> in <b class='insert-word'>"<%=@story.word_6%>"</b>!? </p>
+<br>
+<br>
+                             <p>    <b class='speaker insert-word'><%=@story.word_1%></b>
+                             <br>
+                            --+-- (near heart attack) --+--
+                            <br>
+                     <b class='insert-word'><%=@story.word_6.capitalize%></b>?</p>
+<br>
+<br>
+                           <p>       <b class='speaker insert-word'><%=@story.word_4%></b>
+                           <br>
+                       <b class='insert-word'><%=@story.word_7.upcase%></b> mother<b class='insert-word'><%=@story.word_8%></b>er can you speak
+                       it?</p>
+                       <br>
+<br>
+
+                               <p>   <b class='speaker insert-word'><%=@story.word_1%></b>
+                               <br>
+                       Y-y-yes.</p>
+
+<br>
+<br>
+                    <p>              <b class='speaker insert-word'><%=@story.word_4%></b>
+                    <br>
+                       Now describe what <b class='insert-word'><%=@story.word_5%></b>
+                       looks like! </p>
+<br>
+<br>
+                        <p>          <b class='speaker insert-word'><%=@story.word_1%></b>
+                        <br>
+                            --+-- (out of fear) --+--
+                            <br>
+                       <b class='insert-word'><%=@story.word_6.capitalize%></b>?</p>
+
+<br>
+<br>
+
+                    <p>               <b class='speaker insert-word'><%=@story.word_4%></b>
+                    <br>
+                       Say <b class='insert-word'>"<%=@story.word_6%>"</b>
+ again!  C'mon, say
+                       <b class='insert-word'>"<%=@story.word_6%>"</b>
+ again!
+<br>
+I dare ya, I double
+                       dare ya mother<b class='insert-word'><%=@story.word_8%></b>er,
+                       <br>
+                       say <b class='insert-word'>"<%=@story.word_6%>"</b> one more goddamn time!</p>
+                       <br>
+                       <br>
+
+        <p>--+-- <b class='insert-word'><%=@story.word_1%></b> is regressing on the spot. --+--</p>
+<br>
+<br>
+                       <p>            <b class='speaker insert-word'><%=@story.word_4%></b>
+                       <br>
+                       Now describe to me what <b class='insert-word'><%=@story.word_5%></b> looks like! </p>
+                       <br>
+                       <br>
+
+   <p>    --+-- <b class='insert-word'><%=@story.word_1%></b> does his best. --+--</p>
+<br>
+<br>
+                       <p>          <b class='speaker insert-word'><%=@story.word_1%></b>
+                                  <br>
+                       Well he's ...he's... <b class='insert-word'><%=@story.word_9%></b> -- </p>
+                       <br>
+                       <br>
+                       <p>            <b class='speaker insert-word'><%=@story.word_4%></b>
+                       <br>
+                       -- go on!</p>
+<br>
+<br>
+                          <p>        <b class='speaker insert-word'><%=@story.word_1%></b>
+                          <br>
+                       ...and he's...he's... <b class='insert-word'><%=@story.word_10%></b> -- </p>
+                       <br>
+                       <br>
+                      <p>             <b class='speaker insert-word'><%=@story.word_4%></b>
+                      <br>
+                       -- does he look like a <b class='insert-word'><%=@story.word_11%></b>?!</p>
+<br>
+<br>
+
+                     <p>             <b class='speaker insert-word'><%=@story.word_1%></b>
+                     <br>
+                            --+-- (without thinking) --+--
+                            <br>
+                       <b class='insert-word'><%=@story.word_6.capitalize%></b>? </p>
+                       <br>
+                        <br>
+                         <br>
+                       <p>-+- Page 98 -+-</p>
+</div>
